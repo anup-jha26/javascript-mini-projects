@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive CSS Modifier</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Adjust the appearance of the image using the controls below</h1>
+        <span class="title">Powered by JavaScript</span>
+
+        <div class="controls">
+            <label for="base">Background Color</label>
+            <input type="color" id="base" name="base" value="#ff0000" />
+
+            <label for="width">Image Width <span id="width-value">30%</span></label>
+            <input type="range" id="width" name="width" min="0" max="100" value="30" data-sizing="%" />
+
+            <label for="border-radius">Corner Rounding <span id="border-radius-value">5px</span></label>
+            <input type="range" id="border-radius" name="border-radius" min="0" max="100" value="5" data-sizing="px" />
+
+            <label for="padding">Image Padding <span id="padding-value">0px</span></label>
+            <input type="range" id="padding" name="padding" min="10" max="200" value="0" data-sizing="px" />
+
+            <label for="blur">Blur Level <span id="blur-value">0px</span></label>
+            <input type="range" id="blur" name="blur" min="0" max="25" value="0" data-sizing="px" />
+        </div>
+
+        <!-- Updated image from Unsplash -->
+        <img src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d" alt="Red Rose from Unsplash" />
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

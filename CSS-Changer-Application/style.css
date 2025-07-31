@@ -1,0 +1,100 @@
+/* Reset & base setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS custom properties */
+:root {
+    --padding: 0px;
+    --blur: 0px;
+    --base: #ff0000;
+    --width: 30%;
+    --border-radius: 5px;
+}
+
+/* Main layout */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color: #f6f6f6;
+    text-align: center;
+}
+
+.container {
+    padding: 3rem;
+    background: linear-gradient(to right, #1d2b64, #61045f);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(246, 178, 172, 0.2),
+        -10px -10px 30px rgba(255, 107, 107, 0.8);
+}
+
+/* Headings */
+h1 {
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.title {
+    color: var(--base);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* Control panel */
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem 0;
+}
+
+label {
+    color: #fff;
+    margin-top: 0.5rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+/* Image with dynamic styles */
+img {
+    width: var(--width);
+    padding: var(--padding);
+    margin-top: 1rem;
+    background-color: var(--base);
+    border-radius: var(--border-radius);
+    filter: blur(var(--blur));
+    height: 80%;
+    transition: all 0.3s ease;
+}
+
+/* Color picker style */
+input[type="color"] {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch,
+input[type="color"]::-moz-color-swatch {
+    border: none;
+    border-radius: 50%;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper,
+input[type="color"]::-moz-color-swatch-wrapper {
+    padding: 0;
+}
+
+/* Range input */
+.controls input[type="range"] {
+    width: 100%;
+}
