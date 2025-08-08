@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Live Code Editor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="editor-container">
+        <section class="code-panels">
+            <div class="code-box">
+                <label><i class="fa-brands fa-html5"></i> HTML</label>
+                <textarea id="html-input" onkeyup="renderOutput()"></textarea>
+            </div>
+
+            <div class="code-box">
+                <label><i class="fa-brands fa-css3-alt"></i> CSS</label>
+                <textarea id="css-input" onkeyup="renderOutput()"></textarea>
+            </div>
+
+            <div class="code-box">
+                <label><i class="fa-brands fa-js"></i> JavaScript</label>
+                <textarea id="js-input" onkeyup="renderOutput()"></textarea>
+            </div>
+        </section>
+
+        <section class="preview-panel">
+            <label><i class="fa-solid fa-play"></i> Preview</label>
+            <iframe id="live-output"></iframe>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
