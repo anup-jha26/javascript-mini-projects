@@ -64,4 +64,4 @@ Great for learning and practicing:
 
 Feel free to customize the styles, add lap functionality, or connect it with localStorage or backend APIs for advanced tracking!
 
-Made with ❤️ for web development learners.
+**Made with ❤️ for web development learners.**
