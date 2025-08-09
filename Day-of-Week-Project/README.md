@@ -65,3 +65,4 @@ Feel free to fork this project, customize the colors, or add more features like:
 - Time-based greetings
 - User-customizable messages
 
+**Made with 💜 for learning and exploration.**
