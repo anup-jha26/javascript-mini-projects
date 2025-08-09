@@ -1,4 +1,4 @@
-# 📅 Day & Daily Motto
+# 📅 Day of Week & Daily Motto
 
 A simple and visually appealing web application that displays the **current day of the week** along with a **unique motivational motto**.  
 The background color changes according to the day, with smooth fade-in animations for a pleasant user experience.
