@@ -38,13 +38,9 @@ Form-Validation-Project/
 
 ## 🔧 How to Use
 
-1. **Download or clone** this repository:
-
-```bash
-git clone https://github.com/yourusername/form-validation-project.git
-```
+1. **Download or clone** this repository.  
 2. **Open** index.html in any modern web browser.  
-3. **Fill out the form** and submit to see real-time validation.
+3. **Fill out the form** and submit to see real-time validation.  
 
 ---
 
@@ -58,5 +54,6 @@ git clone https://github.com/yourusername/form-validation-project.git
 
 ## 🙌 Notes
 Feel free to customize the form styles or enhance validation rules for your needs!  
+
 
 **Made with ❤️ for web developers learning frontend fundamentals.**
