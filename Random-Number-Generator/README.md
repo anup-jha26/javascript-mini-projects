@@ -27,10 +27,10 @@ It allows users to generate random numbers within a predefined range, all with a
 
 ```
 Random-Number-Generator/
-├── index.html # HTML layout
-├── style.css # CSS styling
-├── script.js # Number generation functionality
-└── README.md # Documentation
+├── index.html       # HTML layout
+├── style.css        # CSS styling
+├── script.js        # Number generation functionality
+└── README.md        # Documentation
 ```
 
 ---
@@ -59,5 +59,6 @@ You can easily modify:
 - The **range** of generated numbers  
 - **Colors** and background gradients  
 - Add **input fields** for custom ranges  
+
 
 **Made with ❤️ for web development learners.**
