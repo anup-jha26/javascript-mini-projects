@@ -36,11 +36,7 @@ Live-Character-Count/
 
 ## 🔧 How to Use
 
-1. **Clone or download** the repository:
-
-```bash
-git clone https://github.com/yourusername/live-character-count.git
-```
+1. **Clone or download** the repository.
 
 2. **Open `index.html`** in any modern web browser.
 
@@ -60,5 +56,6 @@ Perfect for beginners to learn:
 
 ## 🙌 Notes
 Feel free to enhance this project by adding word count, limiting max characters, or saving the text to local storage!
+
 
 **Made with ❤️ for learners and developers alike.**
