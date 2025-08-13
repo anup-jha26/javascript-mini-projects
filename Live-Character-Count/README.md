@@ -26,10 +26,10 @@ Built with **HTML**, **CSS**, and **JavaScript** for instant feedback.
 
 ```
 Live-Character-Count/
-├── index.html # Main HTML structure
-├── style.css # Styling with dark theme
-├── script.js # JavaScript character count logic
-└── README.md # Project documentation
+├── index.html       # Main HTML structure
+├── style.css        # Styling with dark theme
+├── script.js        # JavaScript character count logic
+└── README.md        # Project documentation
 ```
 
 ---
@@ -59,3 +59,4 @@ Feel free to enhance this project by adding word count, limiting max characters,
 
 
 **Made with ❤️ for learners and developers alike.**
+
