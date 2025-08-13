@@ -40,11 +40,7 @@ Counter-Web-App/
 
 ## 🔧 How to Use
 
-1. **Download or clone** this repository:
-
-```bash
-git clone https://github.com/yourusername/counter-web-app.git
-```
+1. **Download or clone** this repository.
 
 2. **Open `index.html`** in any modern browser.  
 
