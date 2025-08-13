@@ -27,10 +27,10 @@ It allows users to expand and collapse sections with a smooth and stylish UI.
 
 ```
 Accordion-App/
-├── index.html # HTML layout
-├── style.css # CSS styling
-├── script.js # Accordion functionality
-└── README.md # Documentation
+├── index.html     # HTML layout
+├── style.css      # CSS styling
+├── script.js      # Accordion functionality
+└── README.md      # Documentation
 ```
 
 ---
@@ -55,5 +55,6 @@ Great for learning and practicing:
 
 ## 🙌 Notes
 Feel free to customize the colors, change the topics, or enhance the functionality with icons, animations, or dynamic content loading.
+
 
 **Made with ❤️ for web development learners.**
