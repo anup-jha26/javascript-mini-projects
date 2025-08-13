@@ -37,11 +37,7 @@ Stopwatch-App/
 
 ## 🔧 How to Use
 
-1. **Clone or download** this repository:
-
-```bash
-git clone https://github.com/yourusername/stopwatch-app.git
-```
+1. **Clone or download** this repository.
 
 2. **Open `index.html`** in any modern web browser.
 
