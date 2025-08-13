@@ -28,10 +28,10 @@ It validates user inputs for username, email, password, and password confirmatio
 
 ```
 Form-Validation-Project/
-├── index.html # Main HTML file
-├── style.css # Styling for the form and layout
-├── script.js # JavaScript for form validation
-└── README.md # Project documentation
+├── index.html       # Main HTML file
+├── style.css        # Styling for the form and layout
+├── script.js        # JavaScript for form validation
+└── README.md        # Project documentation
 ```
 
 ---
@@ -57,3 +57,4 @@ Feel free to customize the form styles or enhance validation rules for your need
 
 
 **Made with ❤️ for web developers learning frontend fundamentals.**
+
