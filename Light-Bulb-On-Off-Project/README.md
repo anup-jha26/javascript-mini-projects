@@ -26,7 +26,7 @@ It allows users to turn a virtual bulb on or off with a smooth and stylish UI.
 ## 📂 Project Structure
 
 ```
-Light-Bulb-Toggle-App/
+Light-Bulb-On-Off-Project/
 ├── index.html    # HTML layout
 ├── style.css     # CSS styling
 ├── script.js     # Toggle functionality
@@ -60,5 +60,6 @@ Great for learning and practicing:
 
 You can customize the bulb size, switch position, and colors in the CSS to make it your own.  
 Add more features like dimming effects, sound effects, or even multiple bulbs for a fun challenge!
+
 
 **Made with ❤️ for web development learners.**
