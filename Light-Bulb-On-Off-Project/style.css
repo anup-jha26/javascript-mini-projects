@@ -1,0 +1,82 @@
+/* Reset and base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #1a1a1a, #0d0d0d);
+    transition: background 0.5s ease;
+}
+
+/* Background glow effect when light is on */
+body.on {
+    background: radial-gradient(circle at center, #ffefb5 0%, #1a1a1a 70%);
+}
+
+/* Wire hanging from top */
+.wire {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    height: 50vh;
+    width: 4px;
+    background: #000;
+    z-index: 1;
+}
+
+/* Bulb container */
+.bulb {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+}
+
+/* Bulb icon style */
+.bulb i {
+    font-size: 4rem;
+    color: #444;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Power switch button */
+.switch {
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    width: 45px;
+    height: 45px;
+    background: #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.switch i {
+    font-size: 1.5rem;
+}
+
+/* Light ON effects */
+.on .bulb i {
+    color: #ffd700;
+    text-shadow: 0 0 15px #ffd700, 0 0 30px #ffae00, 0 0 50px #ff8c00;
+}
+
+.on .switch {
+    background: #4caf50;
+}
