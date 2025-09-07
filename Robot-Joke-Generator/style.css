@@ -1,0 +1,124 @@
+:root {
+    --accent: #4183D7;
+    --bg-gradient: linear-gradient(135deg, #FF8CBA, #BDB9E8);
+    --chat-bg: #444;
+    --text: #fff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--bg-gradient);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: var(--text);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #2e2e2e;
+    border-radius: 18px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.3);
+    height: 80vh;
+    width: 40vw;
+    max-width: 600px;
+    min-width: 320px;
+    padding: 25px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: var(--accent);
+}
+
+.avatar {
+    background-color: var(--accent);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 6px;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.header h3 {
+    margin-left: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.chat {
+    background-color: var(--chat-bg);
+    flex-grow: 1;
+    padding: 15px;
+    border-radius: 15px;
+    overflow-y: auto;
+}
+
+.message {
+    font-size: 16px;
+    line-height: 1.4rem;
+    max-width: 80%;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.message.joke {
+    background-color: var(--accent);
+    color: #fff;
+    border-top-left-radius: 0;
+}
+
+.message.user {
+    background-color: #eee;
+    color: #000;
+    margin-left: auto;
+    border-top-right-radius: 0;
+}
+
+.btn {
+    background-color: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #2d65a1;
+    transform: scale(1.05);
+}
