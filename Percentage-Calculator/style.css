@@ -1,0 +1,103 @@
+/* General Page Styling */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff7eb3, #65d6ce);
+}
+
+/* Card Box */
+.card {
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+/* Title */
+h1 {
+    font-size: 1.8rem;
+    color: #222;
+    margin-bottom: 25px;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+/* Slider Section */
+.slider-container {
+    margin-bottom: 15px;
+}
+
+#percentageSlider {
+    width: 100%;
+    margin-top: 10px;
+    appearance: none;
+    background: linear-gradient(to right, #ddd, #4caf50);
+    height: 8px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+#percentageSlider::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #4caf50;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#percentageSlider::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+#percentageValue {
+    display: block;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* Number Input */
+#baseNumber {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+/* Button */
+button {
+    background: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #388e3c;
+}
+
+/* Result Display */
+#result {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+}
